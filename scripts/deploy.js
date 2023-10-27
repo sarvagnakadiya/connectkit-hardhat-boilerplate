@@ -6,7 +6,7 @@ async function main() {
   const timestamp = new Date().toISOString();
 
   // contract name here
-  const contractName = "stakeFIL";
+  const contractName = "Storage";
   const stakeFactory = await hre.ethers.getContractFactory(contractName);
   const stake = await stakeFactory.deploy();
 
